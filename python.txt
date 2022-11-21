@@ -1,6 +1,5 @@
 python
 print ("hello world")
-vi first.py
 python first.py
 cat first.py
 num = int(input("Enter a number: "))  
