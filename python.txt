@@ -1,0 +1,32 @@
+python
+print ("hello world")
+vi first.py
+python first.py
+cat first.py
+num = int(input("Enter a number: "))  
+if (num % 2) == 0:  
+   print("{0} is Even number".format(num))  
+else:  
+   print("{0} is Odd number".format(num)) 
+
+while True:
+    n=(input("Enter a number: "))
+    if(n.isalpha()):
+        print("give the integer number")
+    elif int(n)<=0:
+            print("give positive number")
+    else:
+        sum1 = 0
+        i = 1
+        while i<=int(n):
+            sum1 = sum1 + i
+            i = i + 1  
+        print("sum of the {n} is {sum1}")  
+
+n = int(input("enter the number till you want sum for"))
+if n<0:
+    print("give positive number as input")
+    sum=0
+    for num in range(1,n+1,1):
+        sum=sum+num
+    print("sum of first ",n," is :",sum) 
